@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+        <meta charset="UTF-8">
+        <title>Tri Sakay | Sign Up</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <script src="script.js"></script>
+    <body>        
+        <div class="container">
+             <img class="trisakay" src="baliwag.png" height="200">    
+            <div class="title">Registration Form</div>
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                    <span class="details"> Name</span>
+                    <input type="text" placeholder="Enter your Name" >
+                    </div>                        
+                    <div class="input-box">
+                        <span class="details"> Contact Number </span>
+                        <input type="number" placeholder="Enter your Contact Number" >
+                        </div>   
+                        <div class="input-box">
+                        <span class="details"> Password</span>
+                        <input type="password" id="password" placeholder="Enter your Password" >
+                        </div>
+                        <div class="input-box">
+                            <span class="details"> Confirm Password</span>
+                            <input type="password" id="confirm-password" placeholder="Confirm your Password" >
+                            <p id="message"></p>
+                            </div>
+                        <div class="input-box">
+                        <span class="details"> Email</span>
+                        <input type="email" placeholder="Enter your Email" >
+                        <div class="button">
+                            <input type="submit"  value="Get code">
+                        </div>
+                        </div>
+                         <div class="input-box">
+                        <span class="details"> Verification Code</span>
+                        <input type="text" placeholder="" >
+                        </div>
+                        <div class="button">
+                            <input type="submit" onclick="checkPassword()" value="Confirm">
+                        </div>
+                </div>
+            </form>
+        </div>
+    
+    </body>
+</html>
